@@ -303,7 +303,7 @@ HAVING COUNT(DISTINCT Ci.ISBN) > 2;
 -- ANSWER : Tom Hunks, Tom Cruise, Tina Fei, and Rice Brown
 
 
--- Which book is the msot popular book among all customers? 
+-- Which book is the most popular book among all customers? 
 -- Please list its title and the number of copies sold. 
 SELECT B.title, SUM(Ci.quantity) AS total_sold
 FROM Books B
